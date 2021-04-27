@@ -4,12 +4,21 @@
 
 #mushroom-text {
     font-size: 48px;
-    color: #0051ff;
+    color: black;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 300px;
-
   }
+
+#latin-text{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
