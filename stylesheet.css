@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Pyte Legacy Library Test Polymer';
+    src: url('PyteLegacyLibraryTest-Polymer.woff2') format('woff2'),
+        url('PyteLegacyLibraryTest-Polymer.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

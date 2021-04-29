@@ -1,24 +1,49 @@
+@font-face {
+    font-family: 'Cheee Demo';
+    src: url('CheeeDemo-Tbone.woff2') format('woff2'),
+        url('CheeeDemo-Tbone.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Tiempos Headline';
+    src: url('TiemposHeadline-Light.woff2') format('woff2'),
+        url('TiemposHeadline-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 .blue{
     background-color: blue;
 }
 
 #mushroom-text {
-    font-size: 48px;
+    font-family: 'Cheee Demo';
+    font-size: 4em;
     color: black;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 300px;
+    padding-top: 280px;
   }
 
 #latin-text{
-    font-size: 24px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Tiempos Headline';
+    font-size: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+#images {
+    position: relative;
+    margin-top: -350px;
+    margin-left: 1200px;
+    display: none;
+}
 
 

@@ -1,8 +1,19 @@
 
 //create an array of mushroom names 
 var mushrooms = ["Alder Scalycap", "Blushing Amanita", "Common Chantarelle", "Death Cap Amanita", "Earthy Powdercap", "Funeral Bell", "Gypsy Mushroom", "Hooded False Morel", "Ice Panther", "Jelly Babies", "King Bolete", "Lion's Mane", "Morel", "Nasty Cap", "Orange Birch Bolete", "The Prince", "Queen Elizabeth", "Royal Fly Agaric", "Satan's Bolete", "Tiger's Eye", "Umbrella Inky Cap", "Velvet Rollrim", "Woolly Webcap", "Xavier's Head", "Yellow Stagshorn", "Zen Angel"];
+//create an array of background colors 
 var colors = ["#F5F1E7", "#EBE2CC", "#F9F6EF", "#EFE9E3", "#EBE7E4", "#F0EEE5", "#ECE8DB", "#F5F0DC", "#F6EEE6"]
+//create an array of latin mushroom names 
 var latin = ["(Pholiota Alnicola)", "(Amanita Rubescens)", "(Cantharellus Cibarius)", "(Amanita Phalloides)", "(Cystoderma Amianthinum)", "(Galerina Marginata)", "(Cortinarius Caperatus)", "(Gyromitra Infula)", "(Hydnum Repandum)", "(Leotia Lubrica)", "(Boletus Edulis)", "(Hericium Erinaceus)", "(Morchella Elata)", "(Otidea Onotica)", "(Leccinum Versipelle)", "(Agaricus Augustus)", "(Amanita Fulva)", "(Amanita Regalis)", "(Boletus Satanas)", "(Coltricia Perennis)", "(Coprinus Plicatilis)", "(Paxillus Atrotomentosus)", "(Cortinarius Laniger)", "(Cortinarius Orellanus)", "(Calocera Viscosa)", "(Clathrus Ruber)"]
+  
+// Create a new HTML image element for the card
+let mushroomImage = document.createElement("img");
+//create mushroom image array
+var images = ["images/mushroom1.png"]
+
+
+
+
 
 //when user first comes to page, they will click the keys on keyboard to retrieve different mushrooms from array 
 //create keydown function to call a mushroom for each key pressed 
@@ -12,12 +23,21 @@ document.addEventListener("keydown", function(event){
 
     let newMushroomText=" ";
     let newLatinText=" ";
+
+
+
     //a
     if(event.key == "a"){
-    
+    //call mushroom name
     newMushroomText=mushrooms[0]
+    //call mushroom latin name
     newLatinText=latin[0]
+    //call background color
     document.body.style.backgroundColor = colors[0]
+    //show mushroom image 
+    mushroomImage=images[0]
+    
+    
     //b
     }else if(event.key == "b"){
     
@@ -170,9 +190,14 @@ document.addEventListener("keydown", function(event){
     document.body.style.backgroundColor = colors[1]
 
     }
-
+  //append mushroom text array to inner text to mushroom text div in html
   document.querySelector('#mushroom-text').innerText=newMushroomText;
+  //append latin text array to inner text to latin text div in html
   document.querySelector('#latin-text').innerText=newLatinText;
+  //append images array to img to images div in html
+  document.querySelector('#images').img=mushroomImage;
+
+
 
 })
 
