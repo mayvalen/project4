@@ -6,16 +6,19 @@ var colors = ["#F5F1E7", "#EBE2CC", "#F9F6EF", "#EFE9E3", "#EBE7E4", "#F0EEE5", 
 //create an array of latin mushroom names 
 var latin = ["(Pholiota Alnicola)", "(Amanita Rubescens)", "(Cantharellus Cibarius)", "(Amanita Phalloides)", "(Cystoderma Amianthinum)", "(Galerina Marginata)", "(Cortinarius Caperatus)", "(Gyromitra Infula)", "(Hydnum Repandum)", "(Leotia Lubrica)", "(Boletus Edulis)", "(Hericium Erinaceus)", "(Morchella Elata)", "(Otidea Onotica)", "(Leccinum Versipelle)", "(Agaricus Augustus)", "(Amanita Fulva)", "(Amanita Regalis)", "(Boletus Satanas)", "(Coltricia Perennis)", "(Coprinus Plicatilis)", "(Paxillus Atrotomentosus)", "(Cortinarius Laniger)", "(Cortinarius Orellanus)", "(Calocera Viscosa)", "(Clathrus Ruber)"]
   
-// Create a new HTML image element for the card
+// Create a new HTML image element for the mushroom
 let mushroomImage = document.createElement("img");
 //create mushroom image array
-var images = ["images/mushroom1.png"]
+var images = ["url(images/mushroom1.png)", "url(images/mushroom2.jpeg)", "url(images/mushroom.jpeg)"]
 
 
-
-
-
+//USER STORY:
 //when user first comes to page, they will click the keys on keyboard to retrieve different mushrooms from array 
+//when they click on a key more than once, more of that mushroom will populate the page
+//when they click on a different key, a different mushroom name will appear
+//when they click on that key more than once, more of that mushroom will populate the page and so on
+
+
 //create keydown function to call a mushroom for each key pressed 
 document.addEventListener("keydown", function(event){
     console.log(event);
@@ -35,21 +38,33 @@ document.addEventListener("keydown", function(event){
     //call background color
     document.body.style.backgroundColor = colors[0]
     //show mushroom image 
-    mushroomImage=images[0]
+    mushroomImage.src=images[0]
     
     
     //b
     }else if(event.key == "b"){
-    
+    //call mushroom name
     newMushroomText=mushrooms[1]
+    //call mushroom latin name
     newLatinText=latin[1]
+    //call background color
     document.body.style.backgroundColor = colors[1]
+    //show mushroom image
+    mushroomImage.src=images[1]
+
+
     //c
     }else if(event.key == "c"){
-
+    //call mushroom name
     newMushroomText=mushrooms[2]
+    //call mushroom latin name
     newLatinText=latin[2]
+    //call background color
     document.body.style.backgroundColor = colors[2]
+    //show mushroom image
+    mushroomImage.src=images[2]
+
+
     //d
     }else if(event.key == "d"){
 
