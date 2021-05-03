@@ -15,35 +15,95 @@
     font-display: swap;
 }
 
-
-.blue{
-    background-color: blue;
+@font-face {
+    font-family: 'Tiempos Headline';
+    src: url('TiemposHeadline-LightItalic.woff2') format('woff2'),
+        url('TiemposHeadline-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
 }
 
-#mushroom-text {
-    font-family: 'Cheee Demo';
-    font-size: 4em;
-    color: black;
+@font-face {
+    font-family: 'Tiempos Headline';
+    src: url('TiemposHeadline-Medium.woff2') format('woff2'),
+        url('TiemposHeadline-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
     margin: 0;
+}
+
+#first-type {
+    font-family: 'Tiempos Headline';
+    font-style: italic;
+    font-size: 3.4em;
+    color: rgb(98, 252, 67);
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+.video-container {
+    opacity: .5;
+    position: absolute;
+    z-index: -1;
+}
+
+.container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 280px;
+    padding-top: 10px;
+    padding-left: 10px;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 650px;
+  }
+
+.box2 {
+    margin-left: -10px;
+}
+
+.box4 {
+    padding-top: 3em;
+    padding-left: 1em;
+}
+
+.image {
+    width: 300px;
+    padding-right: 1em;
+    padding-bottom: 10em;
+    position: fixed;
+}
+
+
+#mushroom-text {
+    font-family: 'Tiempos Headline';
+    font-size: 3.4em;
+    color: rgb(98, 252, 67);
   }
 
 #latin-text{
+    color: rgb(98, 252, 67);
     font-family: 'Tiempos Headline';
-    font-size: 1em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-style: italic;
+    font-size: 3.4em;
+    position: relative;
+    margin-left: 10px;
 }
 
-#images {
-    position: relative;
-    margin-top: -350px;
-    margin-left: 1200px;
-    display: none;
-}
+
+
+
+
 
 
