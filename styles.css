@@ -41,7 +41,7 @@ body {
     font-family: 'Tiempos Headline';
     font-style: italic;
     font-size: 3.4em;
-    color: rgb(98, 252, 67);
+    color: rgb(249, 252, 67);
 }
 
 #myVideo {
@@ -89,11 +89,11 @@ body {
 #mushroom-text {
     font-family: 'Tiempos Headline';
     font-size: 3.4em;
-    color: rgb(98, 252, 67);
+    color: rgb(249, 252, 67);
   }
 
 #latin-text{
-    color: rgb(98, 252, 67);
+    color: rgb(249, 252, 67);
     font-family: 'Tiempos Headline';
     font-style: italic;
     font-size: 3.4em;

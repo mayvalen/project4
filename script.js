@@ -55,6 +55,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[0]
     //make image div
     makeDiv(images[0]);
+    //sound
+    document.getElementById('audio-one').play();
     
 
     
@@ -67,6 +69,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[1]
     //make image div
     makeDiv(images[1]);
+    //sound
+    document.getElementById('audio-two').play();
 
 
     //c
@@ -77,6 +81,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[2]
     //make image div
     makeDiv(images[2]);
+    //sound
+    document.getElementById('audio-three').play();
 
 
     //d
@@ -86,6 +92,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[3]
     //make image div
     makeDiv(images[3]);
+    //sound
+    document.getElementById('audio-four').play();
 
 
     //e
@@ -95,6 +103,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[4]
     //make image div
     makeDiv(images[4]);
+    //sound
+    document.getElementById('audio-five').play();
 
     //f
     }else if(event.key == "f"){
@@ -103,6 +113,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[5]
     //make image div
     makeDiv(images[5]);
+    //sound
+    document.getElementById('audio-six').play();
 
     //g
     }else if(event.key == "g"){
@@ -111,6 +123,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[6]
     //make image div
     makeDiv(images[6]);
+    //sound
+    document.getElementById('audio-seven').play();
 
     //h
     }else if(event.key == "h"){
@@ -119,6 +133,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[7]
     //make image div
     makeDiv(images[7]);
+    //sound
+    document.getElementById('audio-one').play();
 
     //i
     }else if(event.key == "i"){
@@ -127,6 +143,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[8]
     //make image div
     makeDiv(images[8]);
+    //sound
+    document.getElementById('audio-two').play();
 
     //j
     }else if(event.key == "j"){
@@ -135,6 +153,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[9]
     //make image div
     makeDiv(images[9]);
+    //sound
+    document.getElementById('audio-three').play();
 
     //k
     }else if(event.key == "k"){
@@ -143,6 +163,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[10]
     //make image div
     makeDiv(images[10]);
+    //sound
+    document.getElementById('audio-four').play();
 
     //l
     }else if(event.key == "l"){
@@ -151,6 +173,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[11]
     //make image div
     makeDiv(images[11]);
+    //sound
+    document.getElementById('audio-twelve').play();
 
     //m
     }else if(event.key == "m"){
@@ -159,6 +183,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[12]
     //make image div
     makeDiv(images[12]);
+    //sound
+    document.getElementById('audio-thirteen').play();
 
     //n
     }else if(event.key == "n"){
@@ -167,6 +193,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[13]
     //make image div
     makeDiv(images[13]);
+    //sound
+    document.getElementById('audio-fourteen').play();
 
     //o
     }else if(event.key == "o"){
@@ -175,6 +203,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[14]
     //make image div
     makeDiv(images[14]);
+    //sound
+    document.getElementById('audio-fifteen').play();
 
     //p
     }else if(event.key == "p"){
@@ -183,6 +213,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[15]
     //make image div
     makeDiv(images[15]);
+    //sound
+    document.getElementById('audio-sixteen').play();
 
     //q
     }else if(event.key == "q"){
@@ -191,6 +223,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[16]
     //make image div
     makeDiv(images[16]);
+    //sound
+    document.getElementById('audio-seventeen').play();
  
     //r
     }else if(event.key == "r"){
@@ -199,6 +233,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[17]
     //make image div
     makeDiv(images[17]);
+    //sound
+    document.getElementById('audio-eighteen').play();
 
     //s
     }else if(event.key == "s"){
@@ -207,6 +243,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[18]
     //make image div
     makeDiv(images[18]);
+    //sound
+    document.getElementById('audio-twelve').play();
 
     //t
     }else if(event.key == "t"){
@@ -215,6 +253,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[19]
     //make image div
     makeDiv(images[19]);
+    //sound
+    document.getElementById('audio-thirteen').play();
 
     //u
     }else if(event.key == "u"){
@@ -223,6 +263,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[20]
     //make image div
     makeDiv(images[20]);
+    //sound
+    document.getElementById('audio-twenty-one').play();
 
     //v
     }else if(event.key == "v"){
@@ -231,6 +273,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[21]
     //make image div
     makeDiv(images[21]);
+    //sound
+    document.getElementById('audio-fourteen').play();
     
     //w
     }else if(event.key == "w"){
@@ -239,6 +283,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[22]
     //make image div
     makeDiv(images[22]);
+    //sound
+    document.getElementById('audio-fifteen').play();
 
     //x
     }else if(event.key == "x"){
@@ -247,6 +293,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[23]
     //make image div
     makeDiv(images[23]);
+    //sound
+    document.getElementById('audio-sixteen').play();
 
     //y
     }else if(event.key == "y"){
@@ -255,6 +303,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[24]
     //make image div
     makeDiv(images[24]);
+    //sound
+    document.getElementById('audio-twenty-five').play();
 
     //z
     }else if(event.key == "z"){
@@ -263,6 +313,8 @@ document.addEventListener("keydown", function(event){
     newLatinText=latin[25]
     //make image div
      makeDiv(images[25]);
+    //sound
+    document.getElementById('audio-twenty-six').play();
 
     
 
