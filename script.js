@@ -6,7 +6,7 @@ var mushrooms = ["Alder Scalycap", "Blushing Amanita", "Common Chantarelle", "De
 /* var colors = ["#F5F1E7", "#EBE2CC", "#F9F6EF", "#EFE9E3", "#EBE7E4", "#F0EEE5", "#ECE8DB", "#F5F0DC", "#F6EEE6"] */
 
 //create an array of latin mushroom names 
-var latin = ["(Pholiota alnicola)", "(Amanita rubescens)", "(Cantharellus cibarius)", "(Amanita phalloides)", "(Cystoderma amianthinum)", "(Galerina marginata)", "(Cortinarius caperatus)", "(Gyromitra infula)", "(Monotropa uniflora)", "(Leotia lubrica)", "(Boletus edulis)", "(Hericium erinaceus)", "(Morchella elata)", "(Otidea onotica)", "(Leccinum versipelle)", "(Agaricus augustus)", "(Amanita fulva)", "(Amanita regalis)", "(Boletus satanas)", "(Coltricia perennis)", "(Coprinus plicatilis)", "(Paxillus atrotomentosus)", "(Cortinarius laniger)", "(Cortinarius orellanus)", "(Calocera viscosa)", "(Clathrus ruber)"]
+var latin = ["Pholiota alnicola", "Amanita rubescens", "Cantharellus cibarius", "Amanita phalloides", "Cystoderma amianthinum", "Galerina marginata", "Cortinarius caperatus", "Gyromitra infula", "Monotropa uniflora", "Leotia lubrica", "Boletus edulis", "Hericium erinaceus", "Morchella elata", "Otidea onotica", "Leccinum versipelle", "Agaricus augustus", "Amanita fulva", "Amanita regalis", "Boletus satanas", "Coltricia perennis", "Coprinus plicatilis", "Paxillus atrotomentosus", "Cortinarius laniger", "Cortinarius orellanus", "Calocera viscosa", "Clathrus ruber"]
   
 // Create a new HTML image element for the mushroom
 let mushroomImage = document.createElement("img");
@@ -48,7 +48,7 @@ document.addEventListener("keydown", function(event){
     
 
     //a
-    if(event.key == "a"){
+    if(event.key == "a" ){
     //call mushroom name
     newMushroomText=mushrooms[0]
     //call mushroom latin name
@@ -57,9 +57,6 @@ document.addEventListener("keydown", function(event){
     makeDiv(images[0]);
     //sound
     document.getElementById('audio-one').play();
-    
-
-    
     
     //b
     }else if(event.key == "b"){
@@ -316,9 +313,402 @@ document.addEventListener("keydown", function(event){
     //sound
     document.getElementById('audio-twenty-six').play();
 
-    
+     //CAPITAL LETTERS!!!!!
 
-    }
+      //a
+     }else if(event.key == "A" ){
+        //call mushroom name
+        newMushroomText=mushrooms[0]
+        //call mushroom latin name
+        newLatinText=latin[0]
+        //make image div
+        makeDiv(images[0]);
+        //sound
+        document.getElementById('audio-one').play();
+        
+        //b
+        }else if(event.key == "B"){
+        //call mushroom name
+        newMushroomText=mushrooms[1]
+        //call mushroom latin name
+        newLatinText=latin[1]
+        //make image div
+        makeDiv(images[1]);
+        //sound
+        document.getElementById('audio-two').play();
+    
+    
+        //c
+        }else if(event.key == "C"){
+        //call mushroom name
+        newMushroomText=mushrooms[2]
+        //call mushroom latin name
+        newLatinText=latin[2]
+        //make image div
+        makeDiv(images[2]);
+        //sound
+        document.getElementById('audio-three').play();
+    
+    
+        //d
+        }else if(event.key == "D"){
+        
+        newMushroomText=mushrooms[3]
+        newLatinText=latin[3]
+        //make image div
+        makeDiv(images[3]);
+        //sound
+        document.getElementById('audio-four').play();
+    
+    
+        //e
+        }else if(event.key == "E"){
+    
+        newMushroomText=mushrooms[4]
+        newLatinText=latin[4]
+        //make image div
+        makeDiv(images[4]);
+        //sound
+        document.getElementById('audio-five').play();
+    
+        //f
+        }else if(event.key == "F"){
+    
+        newMushroomText=mushrooms[5]
+        newLatinText=latin[5]
+        //make image div
+        makeDiv(images[5]);
+        //sound
+        document.getElementById('audio-six').play();
+    
+        //g
+        }else if(event.key == "G"){
+    
+        newMushroomText=mushrooms[6]
+        newLatinText=latin[6]
+        //make image div
+        makeDiv(images[6]);
+        //sound
+        document.getElementById('audio-seven').play();
+    
+        //h
+        }else if(event.key == "H"){
+    
+        newMushroomText=mushrooms[7]
+        newLatinText=latin[7]
+        //make image div
+        makeDiv(images[7]);
+        //sound
+        document.getElementById('audio-eight').play();
+    
+        //i
+        }else if(event.key == "I"){
+    
+        newMushroomText=mushrooms[8]
+        newLatinText=latin[8]
+        //make image div
+        makeDiv(images[8]);
+        //sound
+        document.getElementById('audio-nine').play();
+    
+        //j
+        }else if(event.key == "J"){
+    
+        newMushroomText=mushrooms[9]
+        newLatinText=latin[9]
+        //make image div
+        makeDiv(images[9]);
+        //sound
+        document.getElementById('audio-ten').play();
+    
+        //k
+        }else if(event.key == "K"){
+    
+        newMushroomText=mushrooms[10]
+        newLatinText=latin[10]
+        //make image div
+        makeDiv(images[10]);
+        //sound
+        document.getElementById('audio-eleven').play();
+    
+        //l
+        }else if(event.key == "L"){
+    
+        newMushroomText=mushrooms[11]
+        newLatinText=latin[11]
+        //make image div
+        makeDiv(images[11]);
+        //sound
+        document.getElementById('audio-twelve').play();
+    
+        //m
+        }else if(event.key == "M"){
+    
+        newMushroomText=mushrooms[12]
+        newLatinText=latin[12]
+        //make image div
+        makeDiv(images[12]);
+        //sound
+        document.getElementById('audio-thirteen').play();
+    
+        //n
+        }else if(event.key == "N"){
+    
+        newMushroomText=mushrooms[13]
+        newLatinText=latin[13]
+        //make image div
+        makeDiv(images[13]);
+        //sound
+        document.getElementById('audio-fourteen').play();
+    
+        //o
+        }else if(event.key == "O"){
+    
+        newMushroomText=mushrooms[14]
+        newLatinText=latin[14]
+        //make image div
+        makeDiv(images[14]);
+        //sound
+        document.getElementById('audio-fifteen').play();
+    
+        //p
+        }else if(event.key == "P"){
+    
+        newMushroomText=mushrooms[15]
+        newLatinText=latin[15]
+        //make image div
+        makeDiv(images[15]);
+        //sound
+        document.getElementById('audio-sixteen').play();
+    
+        //q
+        }else if(event.key == "Q"){
+    
+        newMushroomText=mushrooms[16]
+        newLatinText=latin[16]
+        //make image div
+        makeDiv(images[16]);
+        //sound
+        document.getElementById('audio-seventeen').play();
+     
+        //r
+        }else if(event.key == "R"){
+    
+        newMushroomText=mushrooms[17]
+        newLatinText=latin[17]
+        //make image div
+        makeDiv(images[17]);
+        //sound
+        document.getElementById('audio-eighteen').play();
+    
+        //s
+        }else if(event.key == "S"){
+    
+        newMushroomText=mushrooms[18]
+        newLatinText=latin[18]
+        //make image div
+        makeDiv(images[18]);
+        //sound
+        document.getElementById('audio-twelve').play();
+    
+        //t
+        }else if(event.key == "T"){
+    
+        newMushroomText=mushrooms[19]
+        newLatinText=latin[19]
+        //make image div
+        makeDiv(images[19]);
+        //sound
+        document.getElementById('audio-thirteen').play();
+    
+        //u
+        }else if(event.key == "U"){
+    
+        newMushroomText=mushrooms[20]
+        newLatinText=latin[20]
+        //make image div
+        makeDiv(images[20]);
+        //sound
+        document.getElementById('audio-twenty-one').play();
+    
+        //v
+        }else if(event.key == "V"){
+    
+        newMushroomText=mushrooms[21]
+        newLatinText=latin[21]
+        //make image div
+        makeDiv(images[21]);
+        //sound
+        document.getElementById('audio-fourteen').play();
+        
+        //w
+        }else if(event.key == "W"){
+    
+        newMushroomText=mushrooms[22]
+        newLatinText=latin[22]
+        //make image div
+        makeDiv(images[22]);
+        //sound
+        document.getElementById('audio-fifteen').play();
+    
+        //x
+        }else if(event.key == "X"){
+    
+        newMushroomText=mushrooms[23]
+        newLatinText=latin[23]
+        //make image div
+        makeDiv(images[23]);
+        //sound
+        document.getElementById('audio-sixteen').play();
+    
+        //y
+        }else if(event.key == "Y"){
+    
+        newMushroomText=mushrooms[24]
+        newLatinText=latin[24]
+        //make image div
+        makeDiv(images[24]);
+        //sound
+        document.getElementById('audio-twenty-five').play();
+    
+        //z
+        }else if(event.key == "Z"){
+    
+        newMushroomText=mushrooms[25]
+        newLatinText=latin[25]
+        //make image div
+         makeDiv(images[25]);
+        //sound
+        document.getElementById('audio-twenty-six').play();
+
+      }else if(event.key == "1"){
+        //sound
+        document.getElementById('audio-one').play();
+
+      }else if(event.key == "2"){
+        //sound
+        document.getElementById('audio-two').play(); 
+
+      }else if(event.key == "3"){
+        //sound
+        document.getElementById('audio-three').play();
+
+      }else if(event.key == "4"){
+        //sound
+        document.getElementById('audio-four').play();
+
+      }else if(event.key == "5"){
+        //sound
+        document.getElementById('audio-five').play();
+      
+      }else if(event.key == "6"){
+        //sound
+        document.getElementById('audio-six').play();
+
+      }else if(event.key == "7"){
+        //sound
+        document.getElementById('audio-seven').play();
+
+      }else if(event.key == "8"){
+        //sound
+        document.getElementById('audio-twelve').play();
+
+      }else if(event.key == "9"){
+        //sound
+        document.getElementById('audio-thirteen').play();
+
+      }else if(event.key == "0"){
+        //sound
+        document.getElementById('audio-fourteen').play();
+      
+      }else if(event.key == "Backspace"){
+        //sound
+        document.getElementById('audio-fifteen').play();
+
+      }else if(event.key == "Enter"){
+        //sound
+        document.getElementById('audio-sixteen').play();
+
+      }else if(event.key == "Shift"){
+        //sound
+        document.getElementById('audio-seventeen').play();
+  
+      }else if(event.key == "CapsLock"){
+        //sound
+        document.getElementById('audio-eighteen').play();
+  
+      }else if(event.key == "Tab"){
+        //sound
+        document.getElementById('audio-twenty-one').play();
+
+      }else if(event.key == " "){
+        //sound
+        document.getElementById('audio-twenty-one').play();
+
+      }else if(event.key == "Meta"){
+        //sound
+        document.getElementById('audio-twenty-five').play();
+
+      }else if(event.key == "Alt"){
+        //sound
+        document.getElementById('audio-twenty-six').play();
+
+      }else if(event.key == ","){
+        //sound
+        document.getElementById('audio-one').play();
+
+      }else if(event.key == "."){
+        //sound
+        document.getElementById('audio-three').play();
+
+      }else if(event.key == "/"){
+        //sound
+        document.getElementById('audio-four').play();
+
+      }else if(event.key == ";"){
+        //sound
+        document.getElementById('audio-five').play();
+
+      }else if(event.key == "'"){
+        //sound
+        document.getElementById('audio-six').play();
+
+      }else if(event.key == "["){
+        //sound
+        document.getElementById('audio-seven').play();
+
+      }else if(event.key == "]"){
+        //sound
+        document.getElementById('audio-eight').play();
+
+      }else if(event.key == "-"){
+        //sound
+        document.getElementById('audio-nine').play();
+
+      }else if(event.key == "="){
+        //sound
+        document.getElementById('audio-ten').play();
+
+      }else if(event.key == "ArrowLeft"){
+        //sound
+        document.getElementById('audio-eleven').play();
+
+      }else if(event.key == "ArrowRight"){
+        //sound
+        document.getElementById('audio-twelve').play();
+
+      }else if(event.key == "ArrowUp"){
+        //sound
+        document.getElementById('audio-thirteen').play();
+
+      }else if(event.key == "ArrowDown"){
+        //sound
+        document.getElementById('audio-fourteen').play();
+      }
+      
+      
+
+      
 
 
   //append mushroom text array to inner text to mushroom text div in html

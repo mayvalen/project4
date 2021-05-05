@@ -61,26 +61,21 @@ body {
 .container {
     display: flex;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 20px;
     flex-wrap: wrap;
+    flex-direction: row;
+  
+
+    
 }
 
 .box {
-    width: 650px;
+    width: 720px;
   }
 
-.box2 {
-    margin-left: -10px;
-}
-
-.box4 {
-    padding-top: 3em;
-    padding-left: 1em;
-}
 
 .image {
-    width: 300px;
-    padding-right: 1em;
+    width: 400px;
     padding-bottom: 10em;
     position: fixed;
 }
@@ -88,7 +83,7 @@ body {
 
 #mushroom-text {
     font-family: 'Tiempos Headline';
-    font-size: 3.4em;
+    font-size: 4em;
     color: rgb(249, 252, 67);
   }
 
@@ -98,10 +93,33 @@ body {
     font-style: italic;
     font-size: 3.4em;
     position: relative;
-    margin-left: 10px;
+    
+    
 }
 
 
+@media only screen and (min-width: 320px) {
+    /*FLEXBOX*/
+
+    .image-container {
+        margin-top: 30px;
+      
+    }
+
+
+}
+
+
+   /*LAPTOP*/
+  
+   @media only screen and (min-width: 900px){
+    
+    .image-container {
+        margin-top: -55px;
+      
+    }
+
+   }
 
 
 
